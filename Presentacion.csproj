@@ -162,8 +162,6 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
@@ -205,12 +203,94 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="Template\css\agency.css" />
+    <Content Include="Template\css\bootstrap.css" />
+    <Content Include="Template\css\bootstrap.min.css" />
+    <Content Include="Template\font-awesome\css\font-awesome.css" />
+    <Content Include="Template\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Template\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Template\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Template\img\about\1.jpg" />
+    <Content Include="Template\img\about\2.jpg" />
+    <Content Include="Template\img\about\3.jpg" />
+    <Content Include="Template\img\about\4.jpg" />
+    <Content Include="Template\img\header-bg.jpg" />
+    <Content Include="Template\img\logos\aetuts.jpg" />
+    <Content Include="Template\img\logos\creative-market.jpg" />
+    <Content Include="Template\img\logos\designmodo.jpg" />
+    <Content Include="Template\img\logos\envato.jpg" />
+    <Content Include="Template\img\logos\microlancer.jpg" />
+    <Content Include="Template\img\logos\themeforest.jpg" />
+    <Content Include="Template\img\logos\wordpress.jpg" />
+    <Content Include="Template\img\map-image.png" />
+    <Content Include="Template\img\portfolio\dreams-preview.png" />
+    <Content Include="Template\img\portfolio\dreams.png" />
+    <Content Include="Template\img\portfolio\escape-preview.png" />
+    <Content Include="Template\img\portfolio\escape.png" />
+    <Content Include="Template\img\portfolio\golden-preview.png" />
+    <Content Include="Template\img\portfolio\golden.png" />
+    <Content Include="Template\img\portfolio\roundicons-free.png" />
+    <Content Include="Template\img\portfolio\roundicons.png" />
+    <Content Include="Template\img\portfolio\startup-framework-preview.png" />
+    <Content Include="Template\img\portfolio\startup-framework.png" />
+    <Content Include="Template\img\portfolio\treehouse-preview.png" />
+    <Content Include="Template\img\portfolio\treehouse.png" />
+    <Content Include="Template\img\team\1.jpg" />
+    <Content Include="Template\img\team\2.jpg" />
+    <Content Include="Template\img\team\3.jpg" />
+    <Content Include="Template\js\agency.js" />
+    <Content Include="Template\js\bootstrap.js" />
+    <Content Include="Template\js\bootstrap.min.js" />
+    <Content Include="Template\js\cbpAnimatedHeader.js" />
+    <Content Include="Template\js\cbpAnimatedHeader.min.js" />
+    <Content Include="Template\js\classie.js" />
+    <Content Include="Template\js\contact_me.js" />
+    <Content Include="Template\js\jqBootstrapValidation.js" />
+    <Content Include="Template\js\jquery.js" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="Template\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Template\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Template\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Template\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Template\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Template\font-awesome\less\core.less" />
+    <Content Include="Template\font-awesome\less\fixed-width.less" />
+    <Content Include="Template\font-awesome\less\font-awesome.less" />
+    <Content Include="Template\font-awesome\less\icons.less" />
+    <Content Include="Template\font-awesome\less\larger.less" />
+    <Content Include="Template\font-awesome\less\list.less" />
+    <Content Include="Template\font-awesome\less\mixins.less" />
+    <Content Include="Template\font-awesome\less\path.less" />
+    <Content Include="Template\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Template\font-awesome\less\spinning.less" />
+    <Content Include="Template\font-awesome\less\stacked.less" />
+    <Content Include="Template\font-awesome\less\variables.less" />
+    <Content Include="Template\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Template\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Template\font-awesome\scss\_core.scss" />
+    <Content Include="Template\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Template\font-awesome\scss\_icons.scss" />
+    <Content Include="Template\font-awesome\scss\_larger.scss" />
+    <Content Include="Template\font-awesome\scss\_list.scss" />
+    <Content Include="Template\font-awesome\scss\_mixins.scss" />
+    <Content Include="Template\font-awesome\scss\_path.scss" />
+    <Content Include="Template\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Template\font-awesome\scss\_spinning.scss" />
+    <Content Include="Template\font-awesome\scss\_stacked.scss" />
+    <Content Include="Template\font-awesome\scss\_variables.scss" />
+    <Content Include="Template\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Template\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Template\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Template\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Template\less\agency.less" />
+    <Content Include="Template\less\mixins.less" />
+    <Content Include="Template\less\variables.less" />
+    <Content Include="Template\mail\contact_me.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -221,90 +301,105 @@
   <ItemGroup>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.designer.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Confirm.aspx.cs">
       <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Confirm.aspx.designer.cs">
       <DependentUpon>Confirm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Forgot.aspx.cs">
       <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Forgot.aspx.designer.cs">
       <DependentUpon>Forgot.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Lockout.aspx.cs">
       <DependentUpon>Lockout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Lockout.aspx.designer.cs">
       <DependentUpon>Lockout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\Manage.aspx.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Manage.aspx.designer.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ManageLogins.aspx.cs">
       <DependentUpon>ManageLogins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ManageLogins.aspx.designer.cs">
       <DependentUpon>ManageLogins.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ManagePassword.aspx.cs">
       <DependentUpon>ManagePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ManagePassword.aspx.designer.cs">
       <DependentUpon>ManagePassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\OpenAuthProviders.ascx.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
     </Compile>
     <Compile Include="Account\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ResetPassword.aspx.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ResetPassword.aspx.designer.cs">
       <DependentUpon>ResetPassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\ResetPasswordConfirmation.aspx.cs">
       <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\ResetPasswordConfirmation.aspx.designer.cs">
       <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.cs">
       <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.designer.cs">
       <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
@@ -348,6 +443,7 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
@@ -355,6 +451,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
