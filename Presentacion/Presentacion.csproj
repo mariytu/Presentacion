@@ -235,6 +235,9 @@
     <Content Include="Template\img\portfolio\startup-framework.png" />
     <Content Include="Template\img\portfolio\treehouse-preview.png" />
     <Content Include="Template\img\portfolio\treehouse.png" />
+    <Content Include="Template\img\team\01.jpg" />
+    <Content Include="Template\img\team\02.jpg" />
+    <Content Include="Template\img\team\03.jpg" />
     <Content Include="Template\img\team\1.jpg" />
     <Content Include="Template\img\team\2.jpg" />
     <Content Include="Template\img\team\3.jpg" />

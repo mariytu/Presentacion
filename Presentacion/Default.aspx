@@ -143,8 +143,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Experiencia</h2>
+                    <h3 class="section-subheading text-muted">Te contamos algunas de las cosas que hemos aprendido.</h3>
                 </div>
             </div>
             <div class="row">
@@ -224,16 +224,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Nuestro Increible Equipo</h2>
+                    <h3 class="section-subheading text-muted">Inspirados en hacer lo mejor, siempre</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="Template/img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <img src="Template/img/team/01.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Felipe Román</h4>
+                        <p class="text-muted">Líder de Comunicaciones</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -246,9 +246,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="Template/img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <img src="Template/img/team/02.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Marianela Iturriaga</h4>
+                        <p class="text-muted">Líder Senior</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -261,9 +261,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="Template/img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img src="Template/img/team/03.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Miguel Arriagada</h4>
+                        <p class="text-muted">Líder de Informes</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -277,7 +277,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted">Nuestra meta es alcanzar la excelencia en calidad, diseño, contenido y precisión de respuesta.</p>
                 </div>
             </div>
         </div>
