@@ -865,3 +865,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+.scrollpoint {
+  opacity: 100;
+}
+.scrollpoint.active {
+  opacity: 1 \0;
+}

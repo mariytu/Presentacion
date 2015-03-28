@@ -204,6 +204,7 @@
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="Template\css\agency.css" />
+    <Content Include="Template\css\animate.css" />
     <Content Include="Template\css\bootstrap.css" />
     <Content Include="Template\css\bootstrap.min.css" />
     <Content Include="Template\font-awesome\css\font-awesome.css" />
@@ -253,6 +254,8 @@
     <Content Include="Template\js\contact_me.js" />
     <Content Include="Template\js\jqBootstrapValidation.js" />
     <Content Include="Template\js\jquery.js" />
+    <Content Include="Template\js\scripts.js" />
+    <Content Include="Template\js\waypoints.min.js" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />

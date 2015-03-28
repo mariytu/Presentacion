@@ -25,6 +25,9 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="Template/css/animate.css">
+
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
@@ -44,12 +47,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Tecnologías Web</a>
+                <a class="navbar-brand page-scroll scrollpoint sp-effect1" href="#page-top">Tecnologías Web</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right scrollpoint sp-effect2">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -73,9 +76,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Bienvenido a nuestro Sitio de Presentación</div>
-                <div class="intro-heading">Conocenos un poco mejor</div>
-                <a href="#team" class="page-scroll btn btn-xl">Comenzar</a>
+                <div class="intro-lead-in scrollpoint sp-effect3">Bienvenido a nuestro Sitio de Presentación</div>
+                <div class="intro-heading scrollpoint sp-effect3">Conocenos un poco mejor</div>
+                <a href="#team" class="page-scroll btn btn-xl scrollpoint sp-effect5">Comenzar</a>
             </div>
         </div>
     </header>
@@ -103,5 +106,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="Template/js/agency.js"></script>
+
+    <!-- Animation -->
+    <script src="Template/js/waypoints.min.js"></script>
+    <script src="Template/js/scripts.js"></script>
 </body>
 </html>
