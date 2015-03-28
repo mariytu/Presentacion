@@ -250,11 +250,9 @@
                         <h4>Marianela Iturriaga</h4>
                         <p class="text-muted">Líder Senior</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.facebook.com/mary.itu"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
