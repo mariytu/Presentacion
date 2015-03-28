@@ -2,7 +2,71 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <!-- About Section -->
+   
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Nuestro Increible Equipo</h2>
+                    <h3 class="section-subheading text-muted">Inspirados en hacer lo mejor, siempre</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="Template/img/team/01.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Felipe Román</h4>
+                        <p class="text-muted">Líder de Comunicaciones</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="Template/img/team/02.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Marianela Iturriaga</h4>
+                        <p class="text-muted">Líder Senior</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/mary.itu"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="Template/img/team/03.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Miguel Arriagada</h4>
+                        <p class="text-muted">Líder de Informes</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/Ps_Miguel_AT"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/marriagadat"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="http://cl.linkedin.com/in/MiguelAT"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Nuestra meta es alcanzar la excelencia en calidad, diseño, contenido y precisión de respuesta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
@@ -78,68 +142,6 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Nuestro Increible Equipo</h2>
-                    <h3 class="section-subheading text-muted">Inspirados en hacer lo mejor, siempre</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="Template/img/team/01.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Felipe Román</h4>
-                        <p class="text-muted">Líder de Comunicaciones</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="Template/img/team/02.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Marianela Iturriaga</h4>
-                        <p class="text-muted">Líder Senior</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.facebook.com/mary.itu"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="Template/img/team/03.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Miguel Arriagada</h4>
-                        <p class="text-muted">Líder de Informes</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/Ps_Miguel_AT"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/marriagadat"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="http://cl.linkedin.com/in/MiguelAT"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Nuestra meta es alcanzar la excelencia en calidad, diseño, contenido y precisión de respuesta.</p>
                 </div>
             </div>
         </div>
