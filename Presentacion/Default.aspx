@@ -252,7 +252,7 @@
                         <ul class="list-inline social-buttons">
                             <li><a href="https://www.facebook.com/mary.itu"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/profile/view?id=125888155&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -280,34 +280,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="Template/img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="Template/img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="Template/img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="Template/img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
 
     <section id="contact">
         <div class="container">
