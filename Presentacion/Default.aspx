@@ -130,7 +130,8 @@
                                     <p class="text-muted">
                                         Actualmente, durante mis tiempos libres, me encuentro implementando una página 
                                         web informativa utilizando webforms en ASP.NET para unas cabañas y pensión, que 
-                                        concidentemente es para mi tío.
+                                        concidentemente es para mi tío. En está oportunidad pude jugar más modificando 
+                                        el CSS de un template para ajustarlo a las necesidades de la página.
                                     </p>
                                 </div>
                             </div>
