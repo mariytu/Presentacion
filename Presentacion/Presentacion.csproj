@@ -214,6 +214,9 @@
     <Content Include="Template\img\about\2.jpg" />
     <Content Include="Template\img\about\3.jpg" />
     <Content Include="Template\img\about\4.jpg" />
+    <Content Include="Template\img\about\mary1.png" />
+    <Content Include="Template\img\about\mary2.png" />
+    <Content Include="Template\img\about\mary3.png" />
     <Content Include="Template\img\header-bg.jpg" />
     <Content Include="Template\img\logos\aetuts.jpg" />
     <Content Include="Template\img\logos\creative-market.jpg" />

@@ -28,7 +28,6 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
@@ -76,7 +75,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Bienvenido a nuestro Sitio de Presentación</div>
                 <div class="intro-heading">Conocenos un poco mejor</div>
-                <a href="#services" class="page-scroll btn btn-xl">Comenzar</a>
+                <a href="#team" class="page-scroll btn btn-xl">Comenzar</a>
             </div>
         </div>
     </header>

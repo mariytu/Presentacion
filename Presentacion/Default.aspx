@@ -2,8 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-   
-
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
@@ -16,13 +14,13 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="Template/img/team/01.jpg" class="img-responsive img-circle" alt="">
+                        <a href="#about" class="page-scroll"><img src="Template/img/team/01.jpg" class="img-responsive img-circle" alt=""></a>
                         <h4>Felipe Román</h4>
                         <p class="text-muted">Líder de Comunicaciones</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/felipe.romanmiranda?fref=ts"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
@@ -31,7 +29,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="Template/img/team/02.jpg" class="img-responsive img-circle" alt="">
+                        <a href="#about" class="page-scroll"><img src="Template/img/team/02.jpg" class="img-responsive img-circle" alt=""></a>
                         <h4>Marianela Iturriaga</h4>
                         <p class="text-muted">Líder Senior</p>
                         <ul class="list-inline social-buttons">
@@ -44,7 +42,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="Template/img/team/03.jpg" class="img-responsive img-circle" alt="">
+                        <a href="#about" class="page-scroll"><img src="Template/img/team/03.jpg" class="img-responsive img-circle" alt=""></a>
                         <h4>Miguel Arriagada</h4>
                         <p class="text-muted">Líder de Informes</p>
                         <ul class="list-inline social-buttons">
@@ -80,43 +78,60 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="Template/img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="Template/img/about/mary1.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>Marzo-Julio 2011</h4>
+                                    <h4 class="subheading">Revista JTAER, Curicó.</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">
+                                        Trabaje desarrollando algunos módulos del sistema editorial de la 
+                                        revista. Estos módulos fueron implementados usando HTML, PHP y Javascript. 
+                                        Está fue la primera vez que programe algo web, aunque fueron pequeños aportes, 
+                                        me tomo tiempo acostumbrarme al lenguaje.
+                                    </p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="Template/img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="Template/img/about/mary2.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>Diciembre 2014 - Febrero 2015</h4>
+                                    <h4 class="subheading">SoluforB, Santiago.</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">
+                                        Durante mi período de práctica como desarrolladora de software, trabaje en el proyecto web 
+                                        (<i>tReparto Supervisor</i>) en el que participe durante el diseño e implementación de la 
+                                        aplicación. Esta es una aplicación web que permite a los supervisores de Falabella 
+                                        administrar la información que verán los repartidores. Esta vez, me enfrente al desafío 
+                                        de implementar la solución utilizando ASP.NET con MVC 5 y Parse, por lo que además de 
+                                        aprender .NET aprendí a trabajar con una arquitectura bien estricta e integrarlo con 
+                                        Parse (Plataforma que provee de un núcleo potente, notificaciones push y análisis para las aplicaciones).
+                                    </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="Template/img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="Template/img/about/mary3.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>Marzo 2015 - Hasta la fecha</h4>
+                                    <h4 class="subheading">Proyecto personal</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">
+                                        Actualmente, durante mis tiempos libres, me encuentro implementando una página 
+                                        web informativa utilizando webforms en ASP.NET para unas cabañas y pensión, que 
+                                        concidentemente es para mi tío.
+                                    </p>
                                 </div>
                             </div>
                         </li>
@@ -151,8 +166,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Contáctanos</h2>
+                    <h3 class="section-subheading text-muted">No me funciona =/ Maldito JS</h3>
                 </div>
             </div>
             <div class="row">
@@ -161,28 +176,24 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Tu nombre *" id="name" required data-validation-required-message="Por favor ingresa tu nombre.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="email" class="form-control" placeholder="Tu correo *" id="email" required data-validation-required-message="Por favor ingresa tu correo.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Tu mensaje *" id="message" required data-validation-required-message="Por favor escribe tu mensaje."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">Enviar mensaje</button>
                             </div>
                         </div>
                     </form>
@@ -194,26 +205,8 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-12 text-center">
                     <span class="copyright">Copyright &copy; Team A</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
