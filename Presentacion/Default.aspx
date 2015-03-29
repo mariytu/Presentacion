@@ -138,15 +138,18 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image scrollpoint sp-effect2">
-                                <img class="img-circle img-responsive" src="Template/img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="Template/img/about/miguel1.jpg" alt="">
                             </div>
                             <div class="timeline-panel scrollpoint sp-effect2">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>Marzo 2014 - A la fecha</h4>
+                                    <h4 class="subheading">Administro Mural Escuela ICC</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Estoy a cargo de buscar, construir y mostrar la información relevante para la Escuela de Ingeniería Civil en Computación de la la Universidad de Talca,
+                                        mediante una pantalla con contenido en html, ubicada en el tercer piso de la facultad de ingeniería. Además, trabajo en mis tiempos libres en implementar la información mediante un sistema totalmente web,
+                                        sin utilizar software especial, como hasta ahora.
+                                    </p>
                                 </div>
                             </div>
                         </li>
