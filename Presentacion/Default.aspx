@@ -146,7 +146,7 @@
                                     <h4 class="subheading">Mural Escuela ICC, Utalca</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Estoy a cargo de buscar, construir y mostrar la información relevante para la Escuela de Ingeniería Civil en Computación de la la Universidad de Talca,
+                                    <p class="text-muted">Estoy a cargo de buscar, construir y mostrar la información relevante para la Escuela de Ingeniería Civil en Computación de la Universidad de Talca,
                                         mediante una pantalla con contenido en html, ubicada en el tercer piso de la facultad de ingeniería. Además, trabajo en mis tiempos libres en implementar la información mediante un sistema totalmente web,
                                         sin utilizar software especial, como hasta ahora.
                                     </p>
