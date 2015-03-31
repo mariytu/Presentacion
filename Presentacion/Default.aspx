@@ -58,7 +58,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center scrollpoint sp-effect5">
-                    <p class="large text-muted">Nuestra meta es alcanzar la excelencia en calidad, diseño, contenido y precisión de respuesta.</p>
+                    <p class="large text-muted">Nuestra meta es alcanzar la excelencia en calidad, diseño, contenido y tiempo.</p>
                 </div>
             </div>
         </div>
@@ -138,7 +138,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image scrollpoint sp-effect2">
-                                <img class="img-circle img-responsive" src="Template/img/about/miguel1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="Template/img/about/miguel01.jpg" alt="">
                             </div>
                             <div class="timeline-panel scrollpoint sp-effect2">
                                 <div class="timeline-heading">
@@ -155,9 +155,9 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image scrollpoint sp-effect5">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>Confía
+                                    <br>en Nuestro
+                                    <br>Equipo!</h4>
                             </div>
                         </li>
                     </ul>
