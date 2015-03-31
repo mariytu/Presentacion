@@ -143,7 +143,7 @@
                             <div class="timeline-panel scrollpoint sp-effect2">
                                 <div class="timeline-heading">
                                     <h4>Marzo 2014 - A la fecha</h4>
-                                    <h4 class="subheading">Administro Mural Escuela ICC</h4>
+                                    <h4 class="subheading">Mural Escuela ICC, Utalca</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Estoy a cargo de buscar, construir y mostrar la información relevante para la Escuela de Ingeniería Civil en Computación de la la Universidad de Talca,
