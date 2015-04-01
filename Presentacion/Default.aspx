@@ -14,12 +14,10 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member scrollpoint sp-effect2">
-                        <a href="#about" class="page-scroll"><img src="Template/img/team/01.jpg" class="img-responsive img-circle" alt=""></a>
+                        <a href="#about" class="page-scroll"><img src="Template/img/team/04.jpg" class="img-responsive img-circle" alt=""></a>
                         <h4>Felipe Román</h4>
                         <p class="text-muted">Líder de Comunicaciones</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
                             <li><a href="https://www.facebook.com/felipe.romanmiranda?fref=ts"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
@@ -149,6 +147,41 @@
                                     <p class="text-muted">Estoy a cargo de buscar, construir y mostrar la información relevante para la Escuela de Ingeniería Civil en Computación de la Universidad de Talca,
                                         mediante una pantalla con contenido en html, ubicada en el tercer piso de la facultad de ingeniería. Además, trabajo en mis tiempos libres en implementar la información mediante un sistema totalmente web,
                                         sin utilizar software especial, como hasta ahora.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image scrollpoint sp-effect2">
+                                <img class="img-circle img-responsive" src="Template/img/about/felipe1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel scrollpoint sp-effect2">
+                                <div class="timeline-heading">
+                                    <h4>Agosto 2013 - Diciembre 2013</h4>
+                                    <h4 class="subheading">Mock Up JTAER para Requisitos, Utalca</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Para el curso de Requisitos de Software, me encargué de desarrollar un mock up evolutivo para la revista JTAER. 
+                                        Debido a que no tenía experiencia previa con html y css, tome prestada el diseño de otra página y lo fui cambiando de
+                                        acuerdo a mi necesidad. 
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image scrollpoint sp-effect2">
+                                <img class="img-circle img-responsive" src="Template/img/about/felipe2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel scrollpoint sp-effect2">
+                                <div class="timeline-heading">
+                                    <h4>Agosto 2014 - Diciembre 2014</h4>
+                                    <h4 class="subheading">Sistema de Evaluación Docente, Utalca</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Durante el curso de Construcción y Validación de Software, trabajé en el desarrollo
+                                        de un sitio web que permitiera evaluar a los docentes de nuestra carrera. Para ésto, utilicé Foundation 
+                                        y ASP.NET MVC 4.5. Esta fue una experiencia completamente nueva que me permitió entender la importancia 
+                                        del concepto "web responsive". 
                                     </p>
                                 </div>
                             </div>
