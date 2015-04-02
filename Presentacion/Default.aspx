@@ -76,47 +76,6 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image scrollpoint sp-effect1">
-                                <img class="img-circle img-responsive" src="Template/img/about/mary1.png" alt="">
-                            </div>
-                            <div class="timeline-panel scrollpoint sp-effect1">
-                                <div class="timeline-heading">
-                                    <h4>Marzo-Julio 2011</h4>
-                                    <h4 class="subheading">Revista JTAER, Curicó.</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        Trabaje desarrollando algunos módulos del sistema editorial de la 
-                                        revista. Estos módulos fueron implementados usando HTML, PHP y Javascript. 
-                                        Está fue la primera vez que programe algo web, aunque fueron pequeños aportes, 
-                                        me tomo tiempo acostumbrarme al lenguaje.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image scrollpoint sp-effect2">
-                                <img class="img-circle img-responsive" src="Template/img/about/mary2.png" alt="">
-                            </div>
-                            <div class="timeline-panel scrollpoint sp-effect2">
-                                <div class="timeline-heading">
-                                    <h4>Diciembre 2014 - Febrero 2015</h4>
-                                    <h4 class="subheading">SoluforB, Santiago.</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        Durante mi período de práctica como desarrolladora de software, trabaje en el proyecto web 
-                                        (<i>tReparto Supervisor</i>) en el que participe durante el diseño e implementación de la 
-                                        aplicación. Esta es una aplicación web que permite a los supervisores de Falabella 
-                                        administrar la información que verán los repartidores. Esta vez, me enfrente al desafío 
-                                        de implementar la solución utilizando ASP.NET con MVC 5 y Parse, por lo que además de 
-                                        aprender .NET aprendí a trabajar con una arquitectura bien estricta e integrarlo con 
-                                        Parse (Plataforma que provee de un núcleo potente, notificaciones push y análisis para las aplicaciones).
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image scrollpoint sp-effect1">
                                 <img class="img-circle img-responsive" src="Template/img/about/mary3.png" alt="">
                             </div>
                             <div class="timeline-panel scrollpoint sp-effect1">
@@ -151,19 +110,24 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image scrollpoint sp-effect2">
-                                <img class="img-circle img-responsive" src="Template/img/about/felipe1.jpg" alt="">
+                        <li>
+                            <div class="timeline-image scrollpoint sp-effect1">
+                                <img class="img-circle img-responsive" src="Template/img/about/mary2.png" alt="">
                             </div>
-                            <div class="timeline-panel scrollpoint sp-effect2">
+                            <div class="timeline-panel scrollpoint sp-effect1">
                                 <div class="timeline-heading">
-                                    <h4>Agosto 2013 - Diciembre 2013</h4>
-                                    <h4 class="subheading">Mock Up JTAER para Requisitos, Utalca</h4>
+                                    <h4>Diciembre 2014 - Febrero 2015</h4>
+                                    <h4 class="subheading">SoluforB, Santiago.</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Para el curso de Requisitos de Software, me encargué de desarrollar un mock up evolutivo para la revista JTAER. 
-                                        Debido a que no tenía experiencia previa con html y css, tome prestada el diseño de otra página y lo fui cambiando de
-                                        acuerdo a mi necesidad. 
+                                    <p class="text-muted">
+                                        Durante mi período de práctica como desarrolladora de software, trabaje en el proyecto web 
+                                        (<i>tReparto Supervisor</i>) en el que participe durante el diseño e implementación de la 
+                                        aplicación. Esta es una aplicación web que permite a los supervisores de Falabella 
+                                        administrar la información que verán los repartidores. Esta vez, me enfrente al desafío 
+                                        de implementar la solución utilizando ASP.NET con MVC 5 y Parse, por lo que además de 
+                                        aprender .NET aprendí a trabajar con una arquitectura bien estricta e integrarlo con 
+                                        Parse (Plataforma que provee de un núcleo potente, notificaciones push y análisis para las aplicaciones).
                                     </p>
                                 </div>
                             </div>
@@ -186,6 +150,46 @@
                                 </div>
                             </div>
                         </li>
+                        
+                        
+                        
+                        <li>
+                            <div class="timeline-image scrollpoint sp-effect1">
+                                <img class="img-circle img-responsive" src="Template/img/about/felipe1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel scrollpoint sp-effect1">
+                                <div class="timeline-heading">
+                                    <h4>Agosto 2013 - Diciembre 2013</h4>
+                                    <h4 class="subheading">Mock Up JTAER para Requisitos, Utalca</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Para el curso de Requisitos de Software, me encargué de desarrollar un mock up evolutivo para la revista JTAER. 
+                                        Debido a que no tenía experiencia previa con html y css, tome prestada el diseño de otra página y lo fui cambiando de
+                                        acuerdo a mi necesidad. 
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="timeline-inverted">
+                            <div class="timeline-image scrollpoint sp-effect2">
+                                <img class="img-circle img-responsive" src="Template/img/about/mary1.png" alt="">
+                            </div>
+                            <div class="timeline-panel scrollpoint sp-effect2">
+                                <div class="timeline-heading">
+                                    <h4>Marzo-Julio 2011</h4>
+                                    <h4 class="subheading">Revista JTAER, Curicó.</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Trabaje desarrollando algunos módulos del sistema editorial de la 
+                                        revista. Estos módulos fueron implementados usando HTML, PHP y Javascript. 
+                                        Está fue la primera vez que programe algo web, aunque fueron pequeños aportes, 
+                                        me tomo tiempo acostumbrarme al lenguaje.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image scrollpoint sp-effect5">
                                 <h4>Confía
@@ -204,7 +208,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center scrollpoint sp-effect3">
                     <h2 class="section-heading">Contáctanos</h2>
-                    <h3 class="section-subheading text-muted">No me funciona =/ Maldito JS</h3>
+                    <h3 class="section-subheading text-muted2">coming soon...</h3>
                 </div>
             </div>
             <div class="row">
